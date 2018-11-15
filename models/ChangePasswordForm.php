@@ -1,0 +1,90 @@
+<?php
+
+    namespace app\models;
+    use yii\base\Model;
+    use app\models\User;
+
+/**
+ * Смена пароля учетной записи
+ * 
+ * @param string $current_password Текущий пароль
+ * @param string $new_password Новый пароль
+ * @param string $new_password Новый пароль повторно
+ * @param array $_user Данные текущего пользователя
+ */
+class ChangePasswordForm extends Model {
+    
+    public $current_password;
+    public $new_password;
+    public $new_password_repeat;
+    
+    private $_user;
+    
+    public function __construct(User $user, $config = []) {
+        
+        $this->_user = $user;
+        parent::__construct($config);
+        
+    }
+    
+    /*
+     * Правила валидации
+     */
+    public function rules() {
+        
+        return [
+            [['current_password', 'new_password', 'new_password_repeat'], 'required'],
+
+            [['current_password', 'new_password', 'new_password_repeat'], 
+                'match', 
+                'pattern' => '/^[A-Za-z0-9\_\-]+$/iu', 
+                'message' => 'Пароль может содержать только буквы английского алфавита, цифры, знаки "-", "_"',
+            ],            
+            
+            [['current_password', 'new_password', 'new_password_repeat'], 'string', 'min' => 6, 'max' => 12],
+            ['new_password', 'compare', 'compareAttribute' => 'new_password_repeat'],
+            ['current_password', 'checkCurrentPassword'],
+        ];        
+    }
+    
+    /*
+     * Валидатор проверки текущего и введенного пароля
+     */
+    public function checkCurrentPassword($attribute, $param) {
+        
+        if (!$this->hasErrors()) {
+            if (!$this->_user->validatePassword($this->$attribute)) {
+                $this->addError($attribute, 'Текущий и введенный пароли не совпадают');
+            }
+        }
+    }
+    
+    /*
+     * Метода смены пароля пользователя
+     */
+    public function changePassword() {
+        
+        if ($this->validate()) {
+            $user = $this->_user;
+            $user->setUserPassword($this->new_password);
+            return $user->save();
+        } else {
+            return false;
+        }
+        
+    }
+    
+    /*
+     * Метки для полей
+     */
+    public function attributeLabels() {
+        return [
+            'current_password' => 'Текущий пароль',
+            'new_password' => 'Новый пароль',
+            'new_password_repeat' => 'Новый пароль повторно',
+        ];
+    }
+    
+    
+    
+}

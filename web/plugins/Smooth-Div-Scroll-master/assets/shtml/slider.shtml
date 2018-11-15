@@ -1,0 +1,43 @@
+<body class="overflow-hide">
+<div>
+<div class="col-12 p-0 mx-0 row registration-container overflow-hide">
+	<div class="col-6 mx-0 slider-container p-0">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators my-5 py-5">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner h-100">
+    <div class="carousel-item active">
+      <div class="carousel-caption d-none d-md-block slide-content">
+    <h5 class="slider-h">Добро пожаловать!</h5>
+    <p><img class="slider-logo" src="assets/img/main logo.png"></p>
+      </div>
+      <img class="d-block w-100" src="assets/img/Elsa-05 Copy.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption d-none d-md-block slide-content">
+        
+    <img class="slider-product-icon" src="assets/img/ELSA_product_icon.png">
+      <div class="">
+      <h5 class="slider-h">ELSA</h5>
+      <p class="slide-txt-block text-center mx-auto">Установите наше приложение и будьте всегда в курсе<br> последних событий, оплачивайте услуги и<br> участвуйте в голосованиях в любом месте</p>
+      <div class="app-btn-group mx-auto">
+      <div class="text-center">
+       <button class="btn black-rounded-btn apple-btn-rounded"><img class="store-btn-icon" src="assets/img/apstore_gliph.png"><span class="tst3"> App Store</span></button>
+      <button class="btn black-rounded-btn g-btn-rounded" type="submit"><img class="store-btn-icon" src="assets/img/Google play_gliph.png"> Google Play</button>
+      </div>
+    </div>
+    </div>      
+  </div>
+
+      <img class="d-block w-100" src="assets/img/Elsa-05 Copy.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/img/Elsa-05 Copy.png" alt="Third slide">
+    </div>
+  </div>
+</div>
+
+	</div>

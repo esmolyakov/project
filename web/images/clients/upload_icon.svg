@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>03F29E38-4348-4CCA-965C-398C900A0098</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slices" transform="translate(-2575.000000, -565.000000)">
+            <rect id="Rectangle-34-Copy-4" stroke="#979797" x="2073.5" y="231.5" width="827" height="538" rx="12"></rect>
+            <g id="Group-7" transform="translate(2576.000000, 567.000000)" stroke="#FFFFFF" stroke-width="2">
+                <path d="M0,11.7894737 L0,14.3157895 C0,15.2459533 0.754046737,16 1.68421053,16 L13.4736842,16 C14.403848,16 15.1578947,15.2459533 15.1578947,14.3157895 L15.1578947,11.7894737" id="Shape"></path>
+                <polyline id="Shape" transform="translate(7.578947, 1.684211) scale(1, -1) translate(-7.578947, -1.684211) " points="4.21052632 0 7.57894737 3.36842105 10.9473684 0"></polyline>
+                <path d="M7.57894737,0 L7.57894737,11.7894737" id="Shape" transform="translate(8.000000, 5.894737) scale(1, -1) translate(-8.000000, -5.894737) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

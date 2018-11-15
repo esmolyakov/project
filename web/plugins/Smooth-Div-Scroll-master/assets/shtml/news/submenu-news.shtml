@@ -1,0 +1,14 @@
+<nav class="navbar navbar-dark  
+menu-collapsed-nav justify-content-between navbar-expand-sm p-0 carousel-item d-block">
+<ul class="nav nav-pills mx-auto text-center justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active submenu-nav-link" href="#">Важная информация</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link submenu-nav-link no-border-right no-border-left" href="#">Спец. предложения</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link submenu-nav-link" href="#">Новости дома</a>
+  </li>
+</ul>
+</nav>

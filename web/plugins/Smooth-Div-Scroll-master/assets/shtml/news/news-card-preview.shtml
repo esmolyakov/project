@@ -1,0 +1,11 @@
+
+                           <div class="card news-card-preview  box-shadow" onclick='$("#modal-news").modal("show");'>
+                <img class="card-img-top news-card-img-top-preview" alt=""  src="../assets/img/cool-design-colored-faucets-red-kitchen-faucet-by-zucchetti-bathroom-sink-led-color-lights-gold.png">
+                <h5 class="news-card-preview-h">Проверка газового оборудования</h5>
+                <h5 class="news-card-preview-date">13 августа 2018 года</h5>
+                <div class="card-body m-0 p-0 news-card-preview-body">
+                  <p class="card-text news-card-preview-text ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit.</p>
+                  <div class=" d-flex justify-content-around align-items-center">
+                  </div>
+                </div>
+              </div>

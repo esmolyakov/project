@@ -1,0 +1,17 @@
+<div class="nav-scroller tabs mb-sm-1">       
+   <nav class="navbar navbar-expand-md py-0">
+      <div class="navbar-collapse collapse show">
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item active mx-3">
+            <a class="nav-link text-center tabs-a  pt-5 pb-3 px-md-4" href="#">Важная информация</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link text-center tabs-a  pt-5 pb-3 px-md-4" href="#">Спец. предложения</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link text-center tabs-a  pt-5 pb-3 px-md-4" href="#">Новости дома</a>
+          </li>     
+          </ul>
+      </div>
+    </nav>
+      </div>

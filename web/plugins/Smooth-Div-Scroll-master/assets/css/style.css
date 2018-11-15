@@ -1,0 +1,914 @@
+@font-face{
+font-family: "Mplus 1p";
+src: url('../fonts/MPLUS1p-Regular.ttf');
+}
+@font-face{
+font-family: "Mplus 1p Medium";
+src: url('../fonts/MPLUS1p-Medium.ttf');
+}
+@font-face{
+font-family: "Mplus 1p Bold";
+src: url('../fonts/MPLUS1p-Bold.ttf');
+}
+
+src: url('../fonts/MPLUS1p-ExtraBold.ttf');
+src: url('../fonts/MPLUS1p-Light.ttf');
+src: url('../fonts/MPLUS1p-Thin.ttf');
+src: url('../fonts/MPLUS1p-Black.ttf');
+
+
+/* html {
+ overflow-y: hidden; 
+} */
+/* верхний заголовок на слайдере регистрации */
+.slider-h {
+font-size: 32px;
+letter-spacing: 1.4px;
+line-height: 47px;
+font-family: "Mplus 1p";
+margin-top: 79px; 
+/* background-color: green; */	
+}
+.registration-h {
+font-family: "Mplus 1p";
+font-size: 24px;
+letter-spacing: 2.52px;
+line-height: 36px;
+text-align: center;
+font-weight: 900;
+font-style: normal;
+margin-top: 211px;
+margin-bottom: 62px;
+/* background-color: gray; */
+}
+.slider-logo {
+height: 236px;
+width: 176px;
+margin-top: 101px;
+
+}
+
+.slider-product-icon {
+    margin-top: 79px;
+height: 199px;
+width: 198px;    
+}
+
+.registration-logo {
+margin-top: 86px;	
+}
+
+.overflow-hide
+ {
+overflow: hidden;	
+}
+/* .error-resolution {
+width: 1000000000vw !important;
+height: 100vh !important;
+background-color: black;
+
+} */
+.hidden {
+display: none !important;    
+}
+
+.blue-logo {
+height: 46px;
+width: 187px;
+margin-top: 56px;
+margin-bottom: 59px;	
+}
+
+.slider-container {
+/* min-height: 770px;
+min-width: 705px; */
+/* height: 100vh; */	
+}
+
+.form-signin {
+/*  background-color: red; */   
+}
+
+.tst {
+ bottom: 70px;   
+}
+
+.registration-picture {
+/* height: 650px;
+width: 499px;   */
+}
+
+.registration-txt {
+height: 356px;
+min-width: 262px;
+color: #2D18B4;
+font-family: "Mplus 1p";
+font-size: 14px;
+letter-spacing: 1.05px;
+line-height: 20px;
+margin-left: 31px;
+}
+.registration-txt-h {
+height: 34px;
+color: #EF693A;
+font-family: "Mplus 1p";
+font-size: 24px;
+letter-spacing: 1.05px;
+line-height: 36px; 
+margin-bottom: 12px;
+margin-left: 31px;
+}
+
+ /* .carousel-indicators {
+  bottom: 149px;   
+  } */ 
+.tst6 {
+    position: absolute;
+top: 115px;   
+margin-left: 38px;
+margin-right: 38px;
+
+}
+
+.fixed-bottom-btn-group {
+  margin-bottom: 36px;  
+}
+
+.apple-btn-rounded {
+  margin-right: 16px;  
+}
+.g-btn-rounded {
+  margin-left: 16px;  
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    margin: 12px;
+    /* margin-top: 115px;
+    margin-bottom: 179px; */
+    text-indent: -999px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    /* box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);	 */
+} 
+.carousel-indicators .active{
+height: 14px;
+width: 14px;
+}
+
+.carousel-caption {
+/* top: 79px; */
+/*left: 169px;*/
+margin: 0 auto;	
+}
+.carousel-inner {
+height: 100vh;	
+}
+
+.blue-txt {
+color: #2D18B4;	
+}
+.gray-txt {
+color: #606060;	
+}
+
+.blue-outline-btn {
+height: 56px;
+width: 280px;
+border-radius: 12px;
+border: 1px solid #2D18B4;
+background-color: white;
+/* box-shadow: 2px 3px 5px 2px rgba(55,35,35,0.12); */
+color: #2D18B4;
+font-family: "Mplus 1p Bold";
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 0.9px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+}
+.blue-outline-btn:hover {
+background-color: #2D18B4;
+box-shadow: 0 8px 16px 0 rgba(55,35,35,0.32);
+color: #FFFFFF;
+}
+.blue-outline-btn:active {
+background-color: #201183;
+box-shadow: 1px 2px 3px 2px rgba(55,35,35,0.17);
+color: #FFFFFF;	
+}
+.blue-btn {
+height: 56px;
+width: 280px;
+border-radius: 12px;
+border: 1px solid #2D18B4;
+background-color: #2D18B4;
+/* box-shadow: 0 2px 4px 2px rgba(55,35,35,0.28); */
+color: white;
+font-family: "Mplus 1p Bold";
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 0.9px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+}
+.blue-btn:hover {
+background-color: #2D18B4;
+box-shadow: 0 8px 16px 0 rgba(55,35,35,0.32);
+color: #FFFFFF;
+}
+.blue-btn:active {
+background-color: #201183;
+box-shadow: 0 2px 3px 0 rgba(55,35,35,0.3);
+color: #FFFFFF;	
+}
+
+.red-outline-btn {
+height: 56px;
+width: 280px;
+border: 2px solid #FC3232;
+border-radius: 12px;
+/* box-shadow: 2px 3px 5px 2px rgba(55,35,35,0.12); */
+background-color: white;
+color: #EF693A;
+font-family: "Mplus 1p Bold";
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 0.9px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+}	
+.red-outline-btn:hover {
+background-color: #FC3232;
+box-shadow: 0 8px 16px 2px rgba(55,35,35,0.32);
+color: #FFFFFF;
+}
+.red-outline-btn:active {
+background-color: #b72424;
+border: 2px solid #b72424;
+box-shadow: 1px 2px 3px 2px rgba(55,35,35,0.17);
+color: #FFFFFF;	
+}
+
+.black-rounded-btn {
+ height: 36px;
+width: 168px;
+ /* opacity: 0.64;  */
+border-radius: 18px;
+background-color: rgba(0, 0, 0, 0.64);
+ color: #FFFFFF;
+font-family: "Mplus 1p";
+font-size: 16px;
+letter-spacing: 1.2px;
+line-height: 23px;
+}
+
+
+.blue-circle-btn:hover {
+ 
+}
+.circle-btn-block {
+    width: 60px;
+    margin-top: 41px;
+margin-bottom: 41px;
+}
+
+.agree-btn-block {
+    margin-top: 45px;   
+}
+
+.tst4 {
+   
+}
+
+.services-nav {
+height: 96px;
+  background-color: #2D18B4;
+
+}
+
+ .p-body {
+
+display: block; 
+} 
+
+html, body {
+  height:100%;
+}
+body {
+  display:flex;
+  align-items:center;
+}
+
+.no-underline,
+.no-underline:hover,
+ .no-underline:active, 
+ .no-underline:visited {
+  text-decoration: none;  
+}
+ 
+.error {
+ color: #EF693A;
+font-family: "Mplus 1p";
+font-size: 12px;
+letter-spacing: 1.26px;
+line-height: 18px;   
+}
+
+.registration-btn-group {
+   /*  background-color: gold; */
+/* margin-top: 91px; */
+/*margin-right: 57px;
+margin-left: 57px; */
+width: 591px;
+/* background: green; */
+/* height: 56px; */
+} 
+/* .registration-btn-group div:first-child {
+margin-left: 57px;    
+}
+.registration-btn-group div:last-child {
+margin-right: 57px;    
+} */
+
+.app-btn-group {
+ width: 401px;
+ margin-bottom: 50px;
+ /* background-color: gray; */    
+}
+
+.registration-btn-group {
+ width: 591px;   
+}
+
+.slide-content {
+ height: 768px;
+ position: absolute;
+    top: 0px;
+    bottom: 0;
+    margin: auto 0;
+       /* background-color: green; */     
+}
+
+.slide-txt-block {
+    margin-top: 38px;
+    margin-bottom: 52px;
+ height: 72px; 
+width: 478px;
+ /* background-color: red; */ 
+}
+
+.forgot-a {
+font-family: "Mplus 1p";
+font-size: 14px;
+letter-spacing: 1.05px;
+line-height: 20px;
+text-align: center;
+
+}
+.forgot-a:hover {
+color: #201183;	
+}
+
+
+
+.input-registration {
+height: 51px;
+width: 420px;
+border: none;
+border-bottom: 1px solid #D0D0D0;
+}
+.input-registration:hover
+{
+border-bottom: 1px solid #606060;
+}
+.input-registration:active
+{
+border-bottom: 1px solid #2D18B4;
+}
+.label-registration {
+color: #2D18B4; font-family: "Mplus 1p";    font-size: 12px;    letter-spacing: 1.26px; line-height: 18px;  text-align: center;    
+}
+.registration-form-group {
+ width: 420px; 
+ margin-bottom: 121px;
+/*  background-color: gray;  */ 
+}
+
+.store-btn-icon {
+ height: 18px;  width: 20.46px; /* border-radius: 45.5px 0 0 45.5px; */   
+}
+.registration-btn-group .red-outline-btn {
+/*margin-left: 57px;*/
+  margin-right: 13px;      
+}
+.registration-btn-group .blue-btn {
+  margin-left: 13px; 
+/* margin-right: 57px; */    
+}
+
+.tst2 {
+   
+    /* background-color: red; */
+     right: 6%;
+    left: 6%; 
+}
+
+.agree-btn-text {
+ height: 18px;
+width: 600px;
+color: #606060;
+font-family: "Mplus 1p"; 
+font-size: 13px;
+letter-spacing: 0.97px;
+line-height: 19px;   
+}
+
+.terms-block {
+height: 16px;
+width: 190px; 
+margin-top: 39px;
+margin-bottom: 45px;      
+}
+.terms-block a {
+color: #2D18B4; font-family: "Mplus 1p";    font-size: 11px;    letter-spacing: 0.82px; line-height: 17px;
+}
+.white-horizontal-logo {
+  margin-top: 46px;
+height: 38px;
+width: 152px;  
+}
+
+.circle-scroll-container {
+margin-top: 57px;  
+}
+
+ .menu-bg {
+  
+ background-image: url(Head.png);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ }
+
+ 
+
+
+ .profile-bg {
+ background-image: url(profile-bg.png);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+  height: 372px;
+  width: 1300px;
+
+ }
+ .profile-bg .face{
+border: 4px solid #2D18B4;
+box-shadow: 0px 0px 0px 50px rgba(45, 24, 180, 0.5);
+ }
+ .face-container {
+  position: relative;
+  top: 89px;
+   margin-left: 601px;
+ margin-right: 601px; 
+
+ }
+ .profile-name {
+/* position: relative;  */
+  margin-top: 152px; 
+ width: 1300px; 
+ }
+
+ .btn-upload {
+border: none;
+background-color: transparent;
+color: #FFFFFF;
+font-family: "Mplus 1p Medium";
+font-size: 12px;
+letter-spacing: 0.9px;
+line-height: 18px;
+font-weight: normal;
+vertical-align: text-top;
+ }
+
+ .upload-icon {
+ margin-right: 12.84px; 
+ vertical-align: text-top;
+ }
+
+ .profile-name-h {
+ color: #FFFFFF;
+   font-family: "Mplus 1p";
+     font-size: 28px;
+       letter-spacing: 1.23px;
+  line-height: 42px;
+  white-space: nowrap;
+ }
+
+a.close-menu{
+color: #FFFFFF;
+font-family: "Mplus 1p Medium";
+font-size: 11px;
+letter-spacing: 0.48px;
+line-height: 17px;
+text-decoration: none;
+}
+.close-menu-fa {
+font-size: 55px !important;
+letter-spacing: 28px;
+line-height: 27px;
+vertical-align: bottom;
+}
+..white-horizontal-logo .container {
+max-width: 100% !important;
+width: 100%;  
+}
+.navbar-toggler {
+ border: none; 
+}
+/* .navbar-toggler-icon {
+ background-image:; 
+}
+ */
+
+ .menu-collapsed-nav {
+ height: 139px; 
+ }
+ .menu-collapsed-container {
+  width: 100%;
+  z-index: 2;
+ }
+
+ .navbar-toggler {
+  display: inline-block !important;
+ }
+
+ .menu-collapsed-container.carousel-caption {
+  left: 0%;
+  right: 0%;
+ }
+
+ .bell-badge {
+ border-radius: 50%;
+ height: 8px;
+ width: 8px; 
+ position: absolute;
+}
+
+ul > li:nth-child(2) > a.submenu-nav-link{
+  /* дабы побороть стили бутстрапа */
+ border-radius: 1px; 
+}
+
+ul li .submenu-nav-link {
+height: 56px;
+width: 200px;
+border: 1px solid #D4D4D4;
+
+background-color: transparent;
+color: #FFFFFF;
+font-family: "Mplus 1p";
+font-size: 12px;
+letter-spacing: 1.07px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+padding-top: 21px;
+padding-bottom: 18px;
+/* padding-right: 21.5px;
+padding-left: 20.5px;  */
+}
+
+.submenu-nav-link:hover {
+ background-color: rgba(100%, 100%, 100%, 0.2);
+ color: white; 
+}
+
+ul li:first-of-type .submenu-nav-link {
+ border-radius: 12px 0 0 12px; 
+}
+ul li:last-of-type .submenu-nav-link {
+ border-radius: 0 12px 12px 0 ;
+}
+
+.active.submenu-nav-link {
+border: 1px solid #2D18B4;
+background-color: white !important;
+color: #2D18B4 !important;
+font-family: "Mplus 1p";
+font-size: 12px;
+letter-spacing: 1.07px;
+line-height: 18px;
+text-align: center;  
+}
+.bell-popover,
+iframe{
+top: -10%; 
+ overflow-y: auto; 
+ 
+}
+
+.bell-popover {
+  position: fixed;
+ right: 10%;
+ height: 287px;
+}
+iframe {
+   border-radius: 12px;
+   width: 500px;
+  /*  background: linear-gradient(180.67deg, #39284E 0%, rgba(10,8,8,0.5) 100%);  */
+}
+iframe * {
+  background: linear-gradient(180.67deg, #39284E 0%, rgba(10,8,8,0.5) 100%) !important;
+}
+iframe #header {
+ background-image: none; 
+}
+
+
+.popover-txt {
+  bottom: -160px;
+ position: relative; 
+}
+
+.popover-body {
+padding: 0;
+  color: white;
+background-color: rgba(100%, 100%, 100%, 0);
+
+
+}
+.bs-popover-bottom.show {
+background-color: rgba(100%, 100%, 100%, 0);
+border: 1px solid rgba(100%, 100%, 100%, 0);
+margin-left: -63px;  
+}
+.bs-popover-bottom .arrow,
+.popover-header {
+display: none;  
+}
+.no-border-left {
+border-left: none !important;  
+}
+.no-border-right {
+border-right: none !important;  
+}
+
+.modal-news {
+  /* дабы переопределить бутстраповские стили модалок */
+height: 619px !important;
+width: 1300px !important;
+border-radius: 12px 12px 0 0 !important;
+background-color: #FFFFFF !important;
+box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5) !important; 
+}
+.services-card-preview {
+height: 590px;
+width: 388px;
+border-radius: 12px;
+background-color: #FFFFFF;
+box-shadow: 0 4px 26px 0 rgba(51,29,82,0.16); 
+margin-right: 12px;
+margin-left: 12px;
+margin-top: 15px;
+}
+
+.services-card-preview button {
+margin-left: 50px !important;
+margin-right: 58px !important;
+margin-bottom: 35px;  
+}
+
+.services-card-preview-executor {
+color: #0D0D0D;
+font-family: "Mplus 1p Medium";
+font-size: 15px;
+letter-spacing: 0.1px;
+line-height: 22px;
+/* margin-top: 25px; 
+margin-bottom: 25px;  */
+}
+
+.services-card-img-top-preview {
+height: 218.25px;
+width: 388px;
+/* opacity: 0.14; */
+background-color: #000000; 
+}
+
+.services-card-preview-executor-container {
+ min-height: 70px; 
+}
+
+/* ____________________________________________________________________ */
+/* цвет ссылок на странице  главная новости */
+.news-card-preview-a {
+color: #f49572;	
+}
+/* отключение границ превью карточки на странице  главная новости */
+.news-card-preview {
+color: #a7a7a7;	
+border-top: none;
+border-left: none;
+border-right: none;
+height: 451px;
+max-height: 451px;
+width: 388px;
+max-width: 388px;
+border-radius: 12px;
+background-color: #FFFFFF;
+box-shadow: 0 4px 26px 0 rgba(51,29,82,0.16);
+margin-right: 9px;
+margin-left: 9px;
+margin-top: 24px;
+}
+
+html {
+ overflow: hidden; 
+}
+
+/* .slimScrollBar {
+ переопределяем стили плагина
+background-color: #000000 !important;
+ opacity: 0.3 !important;   
+} */
+
+.container {
+ /*  padding-top: 530px; */
+ margin-top: 24px; 
+ width: 1366px;
+ max-width: 1366px;
+ padding-left: 50px;
+ padding-right: 50px;
+ height: auto;
+ margin-bottom: 112px;
+
+}
+.news-card-img-top-preview {
+border-top-right-radius: 12px;
+border-top-left-radius: 12px;
+}
+.services-card-preview-h,
+.news-card-preview-h {
+color: #2D18B4;
+font-family: "Mplus 1p Medium";
+font-size: 20px;
+letter-spacing: 0.14px;
+line-height: 29px; 
+margin-top: 20px;
+margin-left: 24px;
+margin-right: 24px;
+margin-bottom: 0px;
+}
+.services-card-preview-h {
+margin-top: 17.5px;  
+}
+
+.news-card-preview-date {
+color: #000000;
+font-family: "Mplus 1p Medium";
+font-size: 12px;
+letter-spacing: 0.9px;
+line-height: 18px;
+margin-left: 24px;
+margin-right: 24px;
+margin-bottom: 0px;
+}
+
+.news-card-preview-text,
+.services-card-preview-text  {
+color: #0D0D0D;
+font-family: "Mplus 1p";
+font-size: 14px;
+letter-spacing: 0.44px;
+ line-height: 20px;
+ margin-top: 21px;
+margin-left: 24px;
+margin-right: 24px;
+}  
+
+.services-card-preview-text {
+  margin-bottom: 31px;
+}
+
+/* цвет шапки с меню */
+.menu-header {
+background-color: #7732bf;	
+}
+
+/* табы меню после шапки */
+.tabs-a {
+text-transform: uppercase;
+color: #a7a7a7;	
+}
+
+.tabs-a.active,
+.tabs-a:hover {
+color: white;
+background-color: black;	
+}
+
+/* разделитель меню табов и контента */
+.tabs {
+border-top: 2px solid #a7a7a7;
+border-bottom: 2px solid #a7a7a7;	
+}
+
+/* цвет ссылки меню */
+.menu-a,
+.menu-a:hover {
+color: white;
+/* background: #442a92;
+border: 1px solid #442a92;
+-webkit-border-top-right-radius: 999px;
+-webkit-border-bottom-right-radius: 999px;
+-moz-border-radius-topright: 999px;
+-moz-border-radius-bottomright: 999px;
+border-top-right-radius: 999px;
+border-bottom-right-radius: 999px;
+ устаревший эффект ховера */ 
+}
+
+.account-select {
+/* height: 28px; */
+width: 420px;  
+}
+
+.badge-darkblue {
+
+border-radius: 13px;
+background-color: #2D18B4;
+padding: 4px 35px;
+color: #FFFFFF; font-family: "Mplus 1p Medium"; font-size: 14px;  letter-spacing: 1.05px; line-height: 20px;
+font-weight: normal;
+}
+
+.chip-label  {
+margin-top: 58px; 
+margin-bottom: 72px; 
+}
+
+.border-container {
+border: 1px solid #D4D4D4;  border-radius: 12px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 26px 2px rgba(103,40,190,0.08);}  
+}
+
+.material-select .filled ul .radio {
+background: linear-gradient(180.67deg, #39284E 0%, rgba(10,8,8,0.5) 100%);  
+}
+.material-select .filled ul .radio li:hover {
+color: #fff;  
+}
+
+.material-input-icons {
+  height: 14px; width: 10px; margin-right: 6px;
+}
+
+.personal-info {
+  margin-top: 108px;
+}
+.personal-info > div.material:first-of-type {
+ margin-left: 160px;
+ margin-right: 70px; 
+}
+.personal-info > div.material:nth-of-type(2) {
+ margin-left: 70px;
+ margin-right: 160px; 
+}
+
+.personal-info > div.material h5 {
+ margin-bottom: 43px; 
+}
+
+.spam-agree-txt {
+/*  margin-left: 17px; */
+margin-top: 57px;  
+}
+
+.save-btn-group {
+ margin-top: 102px;
+ margin-bottom: 143px; 
+}
+.save-btn-group button:first-of-type {
+ margin-right: 15.5px; 
+}
+.save-btn-group button:last-of-type {
+ margin-left: 15.5px; 
+}
+
+.news-h {
+    color: #2D18B4;	font-family: "Mplus 1p Medium";	font-size: 34px;	letter-spacing: 0.23px;	line-height: 51px;
+}
+.news-date {
+    color: #000000;	font-family: "Mplus 1p Medium";	font-size: 12px;	letter-spacing: 0.9px;	line-height: 18px;
+}
+
+/*добавим modal-xl для модалки новости*/
+@media (min-width: 768px) { .modal-xl { width: 100%; max-width:1300px; } }

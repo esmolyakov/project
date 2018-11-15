@@ -1,0 +1,177 @@
+<script src="assets/js/jquery-3.3.1.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/plugins/material-form/js/jquery.material.form.js"></script>
+<script  src="assets/plugins/infinite-li-scroll/js/index.js"></script>
+<script  src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/iziModal-master/js/iziModal.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script>
+<script  src="assets/plugins/flickity-freescroll/js/index.js"></script>
+<!-- <script type="text/javascript">
+  $("#modal-demo").iziModal({
+  // options here
+});
+</script> -->
+
+<script type="text/javascript" src="assets/plugins/frosted-glass-effect-master/main.js"></script>
+<!-- <script src="assets/plugins/backdrop-polyfill-chrome-master/backdrop-polyfill-chrome.js"></script> -->
+<script>
+  //возможность добавления ништяков в поповер
+$('[data-toggle="popover"]').popover({
+  html: true,
+  container: 'body',
+  trigger: 'click'
+
+})
+  </script>
+<!-- <script type="text/javascript">
+        $('[data-toggle="popover"]').click(function() {
+            backdrop(document.documentElement.outerHTML, document.getElementById('bell-popover'), 14, "yes");
+        });
+    </script> -->
+    <script type="text/javascript">
+      // инпуты регистрации и входа
+  $(function(){
+    $('.material').materialForm(); 
+  });
+</script>
+<script>
+ // кнопка регистрации
+$( '.blue-circle-btn' ).hover(
+  function() {
+    $( this ).attr('src', '/assets/img/Oval 7.png');
+  });
+$( '.blue-circle-btn' ).click(function() {
+	$( this ).attr('src', '/assets/img/Oval 7 Copy.png');
+	 });
+$( '.blue-circle-btn' ).mouseout(function() {
+  $( this ).attr('src', '/assets/img/Arrow_right.png');
+});
+</script>
+<script type="text/javascript">
+  $( '.wrap-container li' ).hover(
+  function() {
+    $( this ).addClass("active");
+    $('.wrap-container li:not(:hover)').removeClass("active")
+  });
+</script>
+
+
+
+
+<script type="text/javascript">
+  $( 'button.navbar-toggler' ).click(function() {
+  $( 'body' ).addClass("modal-open");
+  $( '.navbar' ).addClass("hidden");
+   });
+
+ /*( 'button.navbar-toggler' ).click(function() {
+  $( 'body' ).addClass("modal-open");
+   });*/
+</script>
+<script type="text/javascript">
+  $( '.close-menu' ).click(function() {
+  $( 'body' ).removeClass("modal-open");
+  $( '.navbar' ).removeClass("hidden");
+   });
+</script>
+<script type="text/javascript">
+   $('#wrap-scroll').slimscroll({
+    size: '0px'
+  });
+</script>
+
+
+<!-- временная заглушка для разрешения ниже хд пока Макс не нарисует настоящую заглушку -->
+<!-- <script type="text/javascript">
+$(window).resize(function() {
+  if (( $(window).width() < 1366 ) || ( $(window).height() < 768 )) {
+   $( 'body' ).addClass("hidden"); 
+  }.slimScroll({
+      wheelStep: 100
+  });
+  
+});
+</script> -->
+
+  <script type="text/javascript">
+  var onResize = function() {
+  // apply dynamic padding at the top of the body according to the fixed navbar height
+  $(".p-body").css("padding-top", $("header.fixed-top").height());
+};
+
+// attach the function to the window resize event
+$(window).resize(onResize);
+
+// call it also when the page is ready after load or reload
+$(function() {
+  onResize();
+});  
+  </script>
+ <script type="text/javascript">
+  $('.container').slimScroll({
+    size: '8px',
+          height: 'auto',
+          distance: '3px'
+         // allowPageScroll: 'true'
+          //outerHeight: 'auto'
+  });
+
+</script>
+<!-- <script type="text/javascript">
+  $ ('.container') .slimScroll (). bind ('slimscroll', function (e, pos) {
+    alert («Достигнут» + pos »);
+ });
+</script> -->
+  <!-- <script type="text/javascript">
+  $('[data-toggle="popover"]').click(function() {
+  $( 'body' ).removeClass("modal-open");
+  $( '.navbar' ).removeClass("hidden");
+   });  
+  </script> -->
+  <script type="text/javascript">
+   $( 'label[for="checkbox-tenant"]' ).click(function() {
+    if ($('#checkbox-tenant').is(':checked')){
+    $('#checkbox-tenant').prop('checked', true);
+  }
+  else {
+$('#checkbox-tenant').prop('checked', false);
+ }
+});
+  </script>
+
+<script type="text/javascript">
+  $("#checkbox-tenant").change(function() {
+     var is_checked = $(this).is(":checked");
+     if(!is_checked) {
+      $(".tenant").val(0);
+     }
+     $(".tenant").prop("readonly", !is_checked);
+});
+</script>
+<script type="text/javascript">
+  $("#modal-demo").iziModal({
+  // options here
+});
+</script>
+<script type="text/javascript">
+  $(document).on('click', '.trigger-link', function (event) {
+  event.preventDefault();
+  $('#modal-demo').iziModal('open');
+});
+</script>
+<script src="assets/plugins/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 1
+      });
+    });
+</script>
+</body>
+</html>

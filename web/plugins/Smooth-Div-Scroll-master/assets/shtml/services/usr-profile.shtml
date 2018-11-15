@@ -1,0 +1,98 @@
+<form class="border-container d-block  material m-0 p-0 border-container">
+  <div class="col-12 p-0 m-0 text-center profile-bg">
+ <div class="face-container">  
+<img class="rounded-circle mx-auto face" src="assets/img/noname.jpg" width="110" height="110">
+</div>
+<div class="profile-name mx-auto">
+ <h5 class="profile-name-h text center ">Арья Старк</h5> 
+</div>
+<div class="profile-upload">
+  <label class="text-center btn btn-upload" role="button"><img src="assets/img/Group7.svg" class="upload-icon"> Загрузить фото<input type="file" hidden></label>
+</div>   
+  </div>
+  <div class="col-12 p-0 m-0 text-center material ">
+<div class="account-select mx-auto">
+  <div class="chip-label">
+  <span class="badge badge-darkblue">Лицевой счет</span>
+</div>
+   <select name="mySelect" placeholder="" >
+    <option value="1">373828920489492829402</option>
+    <option value="2">423828920489492829402</option>
+    <option value="3" selected>783828920489492829402</option>
+    <option value="4">183828920489492829402</option>
+  </select>
+  </div>
+  <div class="col-12 p-0 mx-0 row personal-info material" >
+    <div class=" material"><h5>Мои контактные данные</h5>
+      <label for="inputMobile" id="labelMobile" class="label-registration hidden"> Мобильный телефон</label>
+      <input type="phone" id="inputMobile" class="mx-auto py-3 d-block form-control input-registration" placeholder="<img class='material-input-icons' src='assets/img/lable_icon_phone.svg'>Мобильный телефон" required="">
+      <label for="inputHomePhone" id="labelHomePhone" class="label-registration hidden">Домашний телефон</label>
+      <input type="phone" id="inputHomePhone" class="mx-auto py-3 d-block form-control input-registration" placeholder="<img class='material-input-icons' src='assets/img/lable_icon_old_phone.svg'>Домашний телефон" required="">
+      <label for="inputMail" id="labelMail" class="label-registration hidden">Электронная почта</label>
+      <input type="mail" id="inputMail" class="mx-auto py-3 d-block form-control input-registration" placeholder="<img class='material-input-icons' src='assets/img/lable_icon_mail.svg'>Электронная почта" required="">
+    </div>
+    <div class=" material">
+
+    <h5 class=""><input type="checkbox" class="checkbox-before" id="checkbox-tenant">
+<label for="checkbox-tenant">Арендатор</label>
+    </h5>
+
+    <label for="inputFullNameTenant" id="labelFullNameTenant" class="label-registration hidden">ФИО</label>
+      <input type="text" id="inputFullNameTenant" class="mx-auto py-3 d-block form-control input-registration" placeholder="<img class='material-input-icons tenant' src='assets/img/lable_icon_mail.svg'>ФИО"  required="">
+    <label for="inputMobileTenant" id="labelMobileTenant" class="label-registration hidden"> Мобильный телефон</label>
+      <input type="phone" id="inputMobileTenant" class="mx-auto py-3 d-block form-control input-registration" placeholder="<img class='material-input-icons tenant' src='assets/img/lable_icon_phone.svg'>Мобильный телефон" required="">
+      <label for="inputHomePhoneTenant" id="labelHomePhoneTenant" class="label-registration hidden">Домашний телефон</label>
+      <input type="phone" id="inputHomePhoneTenant" class="mx-auto py-3 d-block form-control input-registration" placeholder="<img class='material-input-icons tenant' src='assets/img/lable_icon_old_phone.svg'>Домашний телефон" required="">
+    </div>
+ <div class="col-12 spam-agree-txt">   
+<div class="round-checkbox text-center mx-auto">
+    <input type="checkbox" id="checkbox2" checked>
+    <label for="checkbox2"></label> <span class="ml-5">Разрешить e-mail оповещение</span>
+  </div>
+  <div class="save-btn-group mx-auto">
+        <div class="text-center">
+      <button class="btn red-outline-btn">Отмена</button>
+      <button class="btn blue-btn" type="submit" data-toggle="modal" data-target="#frostedBk">Сохранить изменения</button>
+          </div>
+        </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+<div id="content">
+    </div>
+    <!-- <div id="">
+      <h4>Внимание!</h4>
+      <p>Данные арендатора будут удалены!</p>
+      <div class="save-btn-group mx-auto">
+        <div class="text-center">
+      <button class="btn red-outline-btn">Отмена</button>
+      <button class="btn blue-btn" type="submit">Сохранить изменения</button>
+          </div>
+        </div>
+    </div> -->
+
+
+  <!-- <div class="mx-auto registration-form-group" >
+     <label for="inputLogin" class="label-registration hidden" id="labelLogin">Логин</label>
+      <input type="txt" id="inputLogin" class="mx-auto py-3 d-block form-control input-registration" placeholder="Логин" required="" autofocus="">
+      <p class="error hidden">Проверьте правильность ввода.</p>
+      <label for="inputPassword" id="labelPassword" class="label-registration hidden">Пароль</label>
+      <input type="password" id="inputPassword" class="mx-auto py-3 d-block form-control input-registration" placeholder="Пароль" required="">
+      </div>
+  
+      <div class="registration-btn-group mx-auto">
+        <div class="text-center">
+      <button class="btn red-outline-btn">Отмена</button>
+      <button class="btn blue-btn" type="submit">Войти</button>
+          </div>
+        </div>
+                </div>
+        <div class=" fixed-bottom col-6 ml-auto">
+      <p class=" text-muted text-center mb-2"><a class="forgot-a gray-txt no-underline" href="#">Забыли пароль?</a></p>
+    </div> -->
+    </form>

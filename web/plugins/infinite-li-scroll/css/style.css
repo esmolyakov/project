@@ -1,0 +1,64 @@
+#scroll-container {
+  overflow: hidden;
+  max-width: 100%;
+  margin: auto;
+  height: 50vh;
+  position: relative;
+  min-height: 300px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.wrap-container {
+  position: relative;
+  max-height: 300px;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  /* background: #eee; */
+  overflow: auto;
+  padding-right: 20px;
+  mask: url(#masking);
+  -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, black), color-stop(1, rgba(0, 0, 0, 0)));
+}
+.wrap-container ul {
+  list-style: none;
+  position: relative;
+  transition: transform .3s;
+  top: 50px;
+}
+.wrap-container ul, .wrap-container ul li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.wrap-container ul li {
+  height: 42px;
+  line-height: 50px;
+  transition: transform .3s;
+  overflow: hidden;
+}
+.wrap-container ul li:last-of-type {
+  padding-bottom: 50px;
+}
+.wrap-container ul li.active .item {
+  transform: scale(1.9);
+}
+.wrap-container ul li.active .item a{
+color: white;
+font-family: "Mplus 1p Medium";
+font-size: 16px;
+letter-spacing: 0.39px;
+line-height: 23px;
+text-align: center;
+}
+.wrap-container ul li .item {
+  position: relative;
+  transition: transform 200ms;
+  display: inline-block;
+}
+
+.wrap-container ul li.active {
+ border-top: 0.5px solid #FFFFFF;
+ border-bottom: 0.5px solid #FFFFFF;
+}

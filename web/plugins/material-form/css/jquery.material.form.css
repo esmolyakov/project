@@ -1,0 +1,323 @@
+
+/* Material input */
+.material .material-input{
+    position: relative;
+    padding-top: 18px;
+    margin-bottom: 10px;
+    background:#fff;
+}
+
+.material .material-input:after{
+    display: block;
+    clear: both;
+    content:"";
+}
+.material .material-input input, 
+.material .material-input textarea{
+    font-size: 16px;
+    /*width: 100%;*/
+    border:0;
+    border-bottom: 1px solid #D0D0D0;
+    outline: none;
+    box-shadow: none;
+    background: 0;
+    float:left;
+    border-radius: 0px;
+
+}
+
+.material .material-input input:hover, 
+.material .material-input textarea:hover{
+    
+    border-bottom: 1px solid #606060;
+    
+}
+
+.material .material-input textarea{
+    height: 120px;
+    padding:7px 0;
+}
+
+/* .material .material-input input{
+    height: 32px;
+} */
+
+.material .material-input label{
+    line-height: 20px;
+}
+
+.material .material-input label{
+    color: #606060;
+    font-size: 14px;
+    font-weight: 300;
+letter-spacing: 1.05px;
+    position: absolute;
+    left:0;
+    top:18px;
+}
+
+.material .material-bar{
+    position: absolute;
+    bottom:0;left:0;
+    display: block;
+    width: 420px;
+}
+
+.material .material-bar:before, 
+.material .material-bar:after{
+    content:"";
+    height: 1px;
+    width: 0;
+    bottom:0;
+    position: absolute;
+    background-color: #2D18B4;;
+}
+
+.material .material-bar:before{
+    left:50%;
+}
+
+.material .material-bar:after{
+    right:50%;
+}
+
+.material .material-input :focus ~ .material-bar:before,
+.material .material-input :focus ~ .material-bar:after,
+.material .error ~ .material-bar:before,
+.material .error ~ .material-bar:after{
+  width:50%;
+}
+
+.material .error ~ .material-bar:before,
+.material .error ~ .material-bar:after,
+.material .error ~ .material-bar:before,
+.material .error ~ .material-bar:after{
+    background-color: #EF693A;
+}
+
+.material .error:focus,
+.material .error.filled,
+.material .error:not(.filled) ~ label{
+    color: #EF693A;
+}
+
+.material .material-input :focus ~ label,
+.material .material-input .filled ~ label,
+.material .error:focus ~ label{
+    color: #2D18B4;
+    font-size: 12px;
+    top:0;
+    letter-spacing: 1.26px;
+    line-height: 18px;
+}
+
+/* Radio */
+.material .material-group{
+    padding-top: 10px;
+}
+.material .material-group input{
+    display: none
+}
+
+.material .material-group-item{
+    position: relative;
+    margin-bottom: 5px;
+}
+.material .material-group-item:last-child{
+    margin-bottom: 0;
+}
+
+.material .material-group label{
+    padding-left: 30px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    font-weight: 300;
+}
+
+
+.material .material-input input {
+padding-bottom: 0px !important;
+padding-left: 0px !important;    
+}
+
+
+
+/* Animation */
+.material .material-select ul,
+.material .material-bar:before, 
+.material .material-bar:after,
+.material .material-input label,
+.material .material-select .material-bar,
+.material .material-select > span,
+.material .material-radio:before,
+.material .material-checkbox,
+.material .material-checkbox:before,
+.material .material-checkbox:after{
+    transition:.4s cubic-bezier(0.25, 0.1, 0.25, 1); 
+    -moz-transition:.4s cubic-bezier(0.25, 0.1, 0.25, 1); 
+    -webkit-transition:.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+/* Disable select */
+.material{
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+
+/* Material border box reset */
+.material *,
+.material *:before,
+.material *:after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing:    border-box; 
+    box-sizing:         border-box;
+}
+/* Select */
+.material .material-select {
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    padding-top: 18px;
+    z-index: 3
+}
+.material .material-select input{display: none}
+.material .material-select > label{
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    padding:0 30px 0 0px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    color: #2D18B4;
+font-family: "Mplus 1p";
+font-size: 15px;
+letter-spacing: 1.13px;
+line-height: 22px;
+font-weight: normal;
+}
+
+.material .material-select > .material-title{
+    position: absolute;
+    color:lightgray;
+    height: 40px;
+    line-height: 40px;
+    top:18px;left:0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.material .material-select > input:checked + .material-title,
+.material .material-select.filled > .material-title{
+    top:0;
+    opacity: 1;
+    visibility: visible;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.material .material-select > label strong{
+    border-color: lightgray transparent transparent transparent;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    
+    margin-top: -3px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right:0;top:50%;
+}
+
+.material .material-select > input:checked ~ ul{
+    visibility: visible;
+    opacity: 1;
+    top:24px;
+}
+.material .material-select ul{
+    /* background:#fff; */
+    top:0;
+    left:0;width: 100%;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2
+
+}
+
+ul.radio {
+   list-style-type: none !important; 
+   margin-top: 28px;
+   padding-left: 0px;
+
+}
+.material .material-select ul li label{
+height: 64px;
+width: 388px;
+color: #FFFFFF;
+font-family: "Mplus 1p";
+font-size: 15px; 
+letter-spacing: 1.13px;
+line-height: 22px;
+/* text-align: left; */
+/* border-top: 1px solid #604C6E; */
+border-bottom: 1px solid #604C6E;
+opacity: 0.8;
+-
+
+}
+.material .material-select ul li input:checked + label, 
+.material .material-select ul li:hover input:checked + label{
+
+    font-weight: 400
+}
+.material .material-select ul li label{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding-left: 17px;
+    padding-top: 22px;
+}
+.material .material-select ul li label:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.material .material-select > input:checked + .material-bar{
+    top:22px;
+}
+
+.material .material-select .material-bar{
+    height: 2px;
+    background: #0000ff;
+    width: 0;
+    bottom:auto;
+    top:56px;
+    padding-top: 10px;
+}
+
+/* Shadow */
+.material .material-select ul{
+    background: linear-gradient(180.67deg, #39284E 0%, rgba(10,8,8,0.5) 100%);  
+    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+    border-radius: 0px  0px 12px  12px ;
+}
+
+/* Animation */
+.material .material-select ul,
+.material .material-bar:before, 
+.material .material-bar:after,
+.material .material-input label,
+.material .material-select .material-bar,
+.material .material-select > span,
+.material .material-radio:before,
+.material .material-checkbox,
+.material .material-checkbox:before,
+.material .material-checkbox:after{
+    transition:.2s ease all; 
+    -moz-transition:.2s ease all; 
+    -webkit-transition:.2s ease all;
+}

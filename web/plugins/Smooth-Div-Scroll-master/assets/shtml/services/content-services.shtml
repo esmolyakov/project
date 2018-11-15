@@ -1,0 +1,61 @@
+      <a href="#" class="trigger-link">Click Me</a>
+        <div class="container row mx-auto justify-content-center">
+        <!--#include file="services-card-preview.shtml"-->        
+        <!--#include file="services-card-preview.shtml"-->        
+        <!--#include file="services-card-preview.shtml"-->
+        <!--#include file="services-card-preview.shtml"-->
+        <!--#include file="services-card-preview.shtml"-->
+        <!--#include file="services-card-preview.shtml"-->
+        </div>
+        <section class="vertical-center-4 slider">
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+      <div style="background-color: silver;">
+        <span class="item">
+          <p style="width:350px; height: 100px;"><a href="#">Новости</a></p>
+        </span>
+      </div>
+    </section>
+        <div id="modal-demo" class="iziModal">
+        	<div id="frostedBk">
+  Custom content here
+</div>
+</div>
+
+
+
+<!-- The Modal -->
+

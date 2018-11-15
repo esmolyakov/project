@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="rus">
+<head>
+<link rel="stylesheet" type="text/css" href="assets/plugins/material-form/css/jquery.material.form.css">
+<link rel="stylesheet" href="assets/css/checkbox.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="assets/plugins/infinite-li-scroll/css/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/plugins/frosted-glass-effect-master/css/style.css">
+<link rel="stylesheet" href="assets/plugins/iziModal-master/css/iziModal.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css">
+    <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
+    <link rel="stylesheet" href="assets/plugins/flickity-freescroll/css/style.css">
+
+
+
+	

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Material INPUT</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.material.form.css">
+	<link rel="stylesheet" type="text/css" href="css/material-font.css">
+</head>
+<body>
+
+<form action="" class="material">
+	<input type="email" name="email" placeholder="E-mail" required>
+	<input type="text" name="name" placeholder="Name">
+	<textarea name="message" placeholder="Message"></textarea>
+
+	<select name="mySelect" placeholder="Select one of these">
+		<option value="1">Option</option>
+		<option value="2">Super option</option>
+		<option value="3" selected>Awesome option</option>
+		<option value="4">WORST option ever</option>
+	</select>
+
+	<select name="mySelects" placeholder="You can select multiple" multiple>
+		<option value="1">Option</option>
+		<option value="2" selected>Super option</option>
+		<option value="3" selected>Awesome option</option>
+	</select>
+
+	<input type="radio" name="gender" value="male" placeholder="Male">
+	<input type="radio" name="gender" value="famale" placeholder="Famale">
+
+	<input type="radio" name="test" value="male" placeholder="true">
+	<input type="radio" name="test" value="famale" placeholder="false">
+
+	<input type="checkbox" name="check[]" value="1" placeholder="check this">
+	<input type="checkbox" name="check[]" value="2" placeholder="andthis">
+</form>
+
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script> <!-- JQUERY -->
+<script type="text/javascript" src="js/jquery.validate.min.js"></script> <!-- JQUERY VALIDATOR (additional) -->
+<script type="text/javascript" src="js/jquery.material.form.js"></script> <!-- JQUERY MATERIAL FORM PLUGIN -->
+
+<script type="text/javascript">
+	$(function(){
+		$('form.material').materialForm(); // Apply material
+		$('form').validate({ 
+			errorPlacement: function(error, element) {}
+		}); // Apply validator with no error messages but classes only
+	});
+</script>
+
+</body>
+</html>
